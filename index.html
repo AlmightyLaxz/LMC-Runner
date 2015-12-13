@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LMC Runner</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	
+	<body>
+			<div id="about" style="position: absolute; top: 0; left: 5; margin-top:350px;">
+				<h2 style="font-family: Arial Black, Serif;">Controls:</h1>
+				<h3 style="font-family: Arial Black, Serif;">W - Jump</h2>
+				<h3 style="margin-top: -20px; font-family: Arial Black, Serif;">A - Move slower</h2>
+				<h3 style="margin-top: -20px; font-family: Arial Black, Serif;">D - Move faster</h2>
+				<h3 style="margin-top: -20px; font-family: Arial Black, Serif;">Mouse - Click buttons</h2>
+			</div>
+			<div id="about2" style="position: absolute; top: 0; left: 1690px; margin-top:350px; text-align: right;">
+				<h2 style="font-family: Arial Black, Serif;">About:</h2>
+				<h3 style="font-family: Arial Black, Serif;">A Game by L, M and C</h3>
+			</div>
+			<canvas id="gameCanvas" width="1280" height="960">This text is displayed if your browser does not support HTML5.</canvas>
+			<script src="scripts/mouse.js"></script>
+			<script src="levels/src/level1.js"></script>
+			<script src="levels/src/level2.js"></script>
+			<script src="levels/src/level3.js"></script>
+			<script src="scripts/keyboard.js"></script>
+			<script src="scripts/fps.js"></script>
+			<script src="scripts/lib/sprite.js"></script>
+			<script src="scripts/lib/particleSystem.js"></script>
+			<script src="scripts/particles.js"></script>
+			<script src="scripts/player.js"></script>
+			<script src="scripts/vector2.js"></script>
+			<script src="scripts/states/gameWinState.js"></script>
+			<script src="scripts/states/gameoverState.js"></script>
+			<script src="scripts/states/splashState.js"></script>
+			<script src="scripts/states/gameState.js"></script>
+			<script src="scripts/states/baseState.js"></script>
+			<script src="scripts/stateManager.js"></script>
+			<script src="scripts/lib/howler.js"></script>
+			<script src="scripts/ui/button.js"></script>
+			<script src="scripts/levels.js"></script>
+			<script src="scripts/collision.js"></script>
+			<script src="scripts/powerup.js"></script>
+			<script src="scripts/sound.js"></script>
+			<script src="scripts/hud.js"></script>
+			<script src="scripts/main.js"></script>
+			
+			<p>http://www.soundjay.com/ -- Button Sound
+			</p><p>http://www.soundjay.com/ -- Gib Sound
+			</p><p>http://opengameart.org/content/2d-platform-winter-tiles -- Tileset
+			</p><p>http://opengameart.org/content/animated-runner-character -- Knight Character
+			</p><p>http://opengameart.org/content/level-up-power-up-coin-get-13-sounds -- Powerup Sound Effect
+			</p><p>http://opengameart.org/content/platformer-jumping-sounds -- Jump Sound Effect
+			</p><p>http://pics-about.space/snow-mountains-planets-1920x1080?p=1 -- Game Background Image
+			</p><p>https://hdwallpapers.cat/winter_mountain_nature_cool_fun_hd-wallpaper-1908176/ -- Splash Screen Background
+			</p>
+	</body>
+</html>
